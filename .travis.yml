@@ -4,9 +4,9 @@ dist: trusty
 install: true
 addons:
   sonarcloud:
-    organization: "alu0100354782"
+    organization: "alu0100354782-github"
     token:
-      secure: 2af7e5f4f43dfc72f184a4528c0cf760dbfccdd5
+      secure: "863c9d4b8f8c702e47a5a59a13378837853efee2"
 jdk:
   - oraclejdk8
 script:
