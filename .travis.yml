@@ -4,7 +4,7 @@ dist: trusty
 install: true
 addons:
   sonarcloud:
-    organization: "dcastell"
+    organization: "alu0100354782"
     token:
       secure: ""
 jdk:
@@ -20,6 +20,6 @@ cache:
 notifications:
   email: 
   recipients:
-    - dcastell@ull.es
+    - alu0100354782@ull.edu.es
 on_success: always
 on_failure: always
