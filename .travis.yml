@@ -3,10 +3,10 @@ sudo: false
 dist: trusty
 install: true
 addons:
-#  sonarcloud:
-#    organization: "alu0100354782"
-#    token:
-#      secure: ""
+  sonarcloud:
+    organization: "alu0100354782"
+    token:
+      secure: "2af7e5f4f43dfc72f184a4528c0cf760dbfccdd5"
 jdk:
   - oraclejdk8
 script:
